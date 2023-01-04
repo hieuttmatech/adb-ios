@@ -10,15 +10,5 @@
 
 @interface ViewController : UIViewController
 
-
-@property(strong, nonatomic) IBOutlet UITextView *textview;
-
--(IBAction)connectBtn:(id)sender;
--(IBAction)installApkBtn:(id)sender;
--(IBAction)uninstallApkBtn:(id)sender;
--(IBAction)startApk:(id)sender;
--(IBAction)disconnect:(id)sender;
--(IBAction)ps:(id)sender;
--(IBAction)list:(id)sender;
 @end
 
